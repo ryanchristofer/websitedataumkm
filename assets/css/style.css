@@ -419,7 +419,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero1-bg.jpg") top center;
+  background: url("../img/hero2-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -836,12 +836,12 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  filter: grayscale(100);
+  /*filter: grayscale(100); */
 }
 
 .clients img:hover {
-  filter: none;
-  transform: scale(1.15);
+  /*filter: none; */
+  transform: scale(1.4);
 }
 
 @media (max-width: 768px) {
@@ -853,6 +853,10 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features .col-lg-6 p {
+  text-align: justify;
+}
+
 .features .nav-tabs {
   border: 0;
 }
@@ -1182,6 +1186,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.portfolio-description p {
+  text-align: justify;
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1248,6 +1256,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
